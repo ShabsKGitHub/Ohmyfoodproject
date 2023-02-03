@@ -1,0 +1,30 @@
+  body {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+  }
+
+
+$primary-color: white;
+$accent-color: rgb(206, 204, 204);
+$font-color: rgb(233, 230, 230);
+
+
+.logo {
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+    box-shadow: 1px 1px 1px 1px;  
+}
+
+.Location {
+    width: 100%;
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+    background-color: $accent-color;
+}
+
+.locationtext {
+    padding: 20px;
+}

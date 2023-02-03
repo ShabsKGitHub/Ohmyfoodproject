@@ -1,0 +1,24 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  text-align: center;
+  margin: 5px;
+  padding: 10px;
+  box-shadow: 1px 1px 1px 1px;
+}
+
+.Location {
+  width: 100%;
+  text-align: center;
+  margin: 5px;
+  padding: 10px;
+  background-color: rgb(206, 204, 204);
+}
+
+.locationtext {
+  padding: 20px;
+}/*# sourceMappingURL=main.css.map */
