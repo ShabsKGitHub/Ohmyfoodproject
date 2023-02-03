@@ -20,11 +20,28 @@ $font-color: rgb(233, 230, 230);
 .Location {
     width: 100%;
     text-align: center;
-    margin: 5px;
+  
     padding: 10px;
     background-color: $accent-color;
 }
 
 .locationtext {
     padding: 20px;
+}
+
+.restaurantdescr {
+    background-color: rgb(241, 236, 236);
+    padding: 25px;
+}
+
+.explorerbtn {
+   border-radius: 20px;
+   padding: 15px;
+   justify-items: center;
+   background-color: #9370DB;
+   border: none; 
+}
+
+.expltext {
+    color: white;
 }
