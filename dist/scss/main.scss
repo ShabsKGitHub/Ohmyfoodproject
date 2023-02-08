@@ -1,3 +1,5 @@
+  @import url(./restaurants.scss);
+  
   body {
       box-sizing: border-box;
       margin: 0;
@@ -11,11 +13,13 @@ $font-color: rgb(233, 230, 230);
 
 
 .logo {
-    text-align: center;
     margin: 5px;
     padding: 10px;
-    box-shadow: 1px;  
+    box-shadow: 1px; 
+    width: 25%;
 }
+
+
 
 .Location {
     width: 100%;
@@ -29,11 +33,6 @@ $font-color: rgb(233, 230, 230);
     padding: 20px;
 }
 
-.restaurantdescr {
-    background-color: rgb(241, 236, 236);
-    padding: 25px;
-    text-align: center;
-}
 
 .explorerbtn {
    border-radius: 20px;
@@ -55,9 +54,8 @@ $font-color: rgb(233, 230, 230);
 .instructions {
 display: flex;
 flex-direction: column;
-
-   
-
+padding: 10px;
+margin: 10px;
 }
 
 .box1 {
@@ -106,4 +104,62 @@ flex-direction: column;
 
 boxtext {
     font-weight: bold;
+}
+
+
+/*Restaurants*/
+
+.restaurantdescr {
+    background-color: rgb(241, 236, 236);
+    padding: 25px;
+    text-align: center;
+}
+
+.restgallery {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: lightgray;
+    width: 100%;
+    justify-content: center;
+
+
+}
+
+.resttext {
+    padding: 5px;
+    margin: 5px;
+}
+
+.restaurantcards {
+    max-width: 35%;
+    margin: 5px;
+    padding: 10px;
+
+
+}
+
+.cardimage {
+    background-color: white;
+    /*padding: 1px;*/
+    border-radius: 12px;
+    border: 1px solid grey;
+}
+
+
+img {
+    width: 100%;
+    border-radius: 5px 5px 0 0
+}
+
+.container {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hearticon {
+    justify-self: flex-end;
+
 }
