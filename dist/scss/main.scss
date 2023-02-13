@@ -1,5 +1,10 @@
-  @import url(./restaurants.scss);
-  
+
+
+@import url("/dist/css/menulapalette.css");
+@import url("/dist/css/logo1.css");
+@import url("/dist/css/restaurants.css");
+
+
   body {
       box-sizing: border-box;
       margin: 0;
@@ -16,15 +21,15 @@ $font-color: rgb(233, 230, 230);
     margin: 5px;
     padding: 10px;
     box-shadow: 1px; 
-    width: 25%;
+  /*  width: 25%;*/
+  text-align: center;
 }
 
 
 
 .Location {
     width: 100%;
-    text-align: center;
-  
+    text-align: center;  
     padding: 10px;
     background-color: $accent-color;
 }
@@ -56,6 +61,7 @@ display: flex;
 flex-direction: column;
 padding: 10px;
 margin: 10px;
+align-items: center;
 }
 
 .box1 {
@@ -66,7 +72,7 @@ margin: 10px;
     margin-left: 20px;
     align-items: center;
     justify-content: center; 
-    width: 200px;
+    width: 250px;
     height: 55px;
     background: rgba(241, 236, 236, 0.867);
     border: none;
@@ -102,17 +108,15 @@ margin: 10px;
     color: rgb(80, 76, 76);
 }
 
-boxtext {
+.boxtext {
     font-weight: bold;
 }
 
 
 /*Restaurants*/
-
-.restaurantdescr {
+/*.restaurantdescr {
     background-color: rgb(241, 236, 236);
     padding: 25px;
-    text-align: center;
 }
 
 .restgallery {
@@ -122,9 +126,7 @@ boxtext {
     padding: 10px;
     background-color: lightgray;
     width: 100%;
-    justify-content: center;
-
-
+    align-content: center;
 }
 
 .resttext {
@@ -136,21 +138,19 @@ boxtext {
     max-width: 35%;
     margin: 5px;
     padding: 10px;
-
-
 }
 
 .cardimage {
     background-color: white;
-    /*padding: 1px;*/
+    /*padding: 1px;
     border-radius: 12px;
     border: 1px solid grey;
 }
 
 
-img {
+.cardimage img {
     width: 100%;
-    border-radius: 5px 5px 0 0
+    border-radius: 5px 5px 0 0;
 }
 
 .container {
@@ -161,19 +161,20 @@ img {
 
 .hearticon {
     justify-self: flex-end;
+}*/
 
-}
+
 
 footer {
-    height: 250px;
+    width: 100%;
+    height: 200px;
     background-color: darkgrey;
 }
 
 
 .footerlogo {
-    display: block;
+    text-align: center;
     margin: 10px;
-    width: 15%;
     padding: 10px;    
 }
 

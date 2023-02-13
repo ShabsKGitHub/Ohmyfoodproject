@@ -1,1 +1,47 @@
-/*# sourceMappingURL=restaurants.css.map */
+.restaurantdescr {
+  background-color: rgb(241, 236, 236);
+  padding: 25px;
+}
+
+.restgallery {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: lightgray;
+  width: 100%;
+  align-content: center;
+}
+
+.resttext {
+  padding: 5px;
+  margin: 5px;
+}
+
+.restaurantcards {
+  max-width: 35%;
+  margin: 5px;
+  padding: 10px;
+}
+
+.cardimage {
+  background-color: white;
+  /*padding: 1px;*/
+  border-radius: 12px;
+  border: 1px solid grey;
+}
+
+.cardimage img {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+.container {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hearticon {
+  justify-self: flex-end;
+}/*# sourceMappingURL=restaurants.css.map */
