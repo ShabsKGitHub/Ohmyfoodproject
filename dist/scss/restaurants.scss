@@ -1,7 +1,4 @@
-.restaurantdescr {
-    background-color: rgb(241, 236, 236);
-    padding: 25px;
-}
+
 
 .restgallery {
     margin-top: 50px;
@@ -9,9 +6,15 @@
     flex-direction: column;
     padding: 10px;
     background-color: lightgray;
-    width: 100%;
-    align-content: center;
+    width: 40%;
 }
+
+.imagecontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 .resttext {
     padding: 5px;
@@ -19,30 +22,46 @@
 }
 
 .restaurantcards {
-    max-width: 35%;
+    width: 100%;
     margin: 5px;
     padding: 10px;
+    box-shadow: 2px;
+
 }
 
 .cardimage {
     background-color: white;
     /*padding: 1px;*/
     border-radius: 12px;
-    border: 1px solid grey;
+    border: 1px solid grey; 
 }
 
 
 .cardimage img {
     width: 100%;
     border-radius: 5px 5px 0 0;
+    
 }
 
 .container {
-    padding: 5px;
+    padding: 1px;
+    margin: 1px;
     display: flex;
     flex-direction: column;
+    
+}
+
+.title {
+    /*display: flex;
+    padding: 1px;
+    margin: 1px;*/
+    align-self: self-start;
+    
 }
 
 .hearticon {
-    justify-self: flex-end;
+    align-self: self-end;
+    width: fit-content;
+    display: inline-block;
+    
 }
