@@ -1,0 +1,43 @@
+
+
+.bannerbastille img {    
+    position: relative;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    z-index: 1;
+}
+
+.bastillebackground {
+    position: absolute;
+    width: 50%;
+    height: 300px;
+    background-color: rgb(240, 236, 236);
+    margin-left: 25%;
+    margin-right: 25%;
+    z-index: 2;
+    top: 700px;
+    border-radius: 40px 40px 0 0;
+}
+
+.bastilleheading {
+    font-size: 24px;
+    margin: 10px;
+    padding: 10px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.dishes {
+    background-color: white;
+    width: 95%;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+
+
