@@ -9,7 +9,6 @@
 
 }*/
 .restcontainer {
-  display: flex;
   background-color: #F6F6F6;
   width: 100%;
   margin: 10px;
@@ -20,51 +19,95 @@
   display: flex;
   width: 95%;
   flex-wrap: wrap;
-  background-color: bisque;
+  /*background-color: bisque;*/
   padding: 10px;
   justify-content: center;
+  gap: 40px;
 }
 
 .restcard1 {
   display: flex;
+  flex-direction: column;
   width: 45%;
-  background-color: aquamarine;
-  padding: 30px;
+  background-color: white;
   margin: 10px;
-  background-position: center;
-  justify-content: center;
-}
-
-.restimage1 {
-  background-image: url(/dist/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
-  width: 50%;
-  background-size: cover;
-  height: 200px;
   background-position: center;
   border-radius: 10px;
 }
 
-.restimage2 {
-  background-image: url(/dist/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg);
-  width: 50%;
+.newbox {
+  position: absolute;
+  z-index: 1;
+  left: 550px;
+  width: 45px;
+  border: solid blue;
+  padding: 10px;
+  margin: 10px;
+}
+
+.imagetext {
+  display: flex;
+  padding: 5px;
+  margin: 10px;
+  width: 100%;
+}
+
+.testing1 {
+  width: 30%;
+}
+
+.subtext {
+  display: flex;
+  width: 30%;
+  justify-content: left;
+}
+
+.heartarea {
+  display: flex;
+  justify-content: end;
+  width: 60%;
+  padding: 10px;
+}
+
+.fa-heart {
+  font-size: 2em;
+  font-weight: 400;
+}
+
+.fa-heart:hover {
+  cursor: pointer;
+  color: green;
+  font-weight: 900;
+}
+
+.restimage1 {
+  background-image: url(/dist/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
+  width: 100%;
   background-size: cover;
   height: 200px;
   background-position: center;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.restimage2 {
+  background-image: url(/dist/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg);
+  width: 100%;
+  background-size: cover;
+  height: 200px;
+  background-position: center;
+  border-radius: 10px;
+  justify-content: center;
 }
 
 .restimage4 {
   background-image: url(/dist/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);
-  width: 50%;
+  width: 100%;
   background-size: cover;
   height: 200px;
   background-position: center;
-}
-
-.hearticon {
-  align-self: self-end;
-  width: -moz-fit-content;
-  width: fit-content;
-  display: inline-block;
+  border-radius: 10px;
+  justify-content: center;
 }
 
 .bannerbastille img {
@@ -219,16 +262,6 @@ body {
   border-radius: 20px;
   /*box-shadow: 2px 2px 2px 2px;*/
   border: none;
-}
-
-.fa-heart {
-  display: block;
-}
-
-.fa-heart:hover {
-  cursor: pointer;
-  background-color: lightcoral;
-  color: yellow;
 }
 
 .boxnr {
