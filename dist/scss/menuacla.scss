@@ -1,23 +1,23 @@
-
-
 .bannerbastille img {    
-    position: relative;
-    width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
-    z-index: 1;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    height: 250px;
+    /*position: relative;
+    width: 100%;
+    margin: 10%;
+    z-index: 1;*/
 }
 
 .bastillebackground {
-    position: absolute;
-    width: 50%;
-    height: 300px;
+   
+    width: 100%;
     background-color: rgb(240, 236, 236);
-    margin-left: 25%;
-    margin-right: 25%;
-    z-index: 2;
-    top: 700px;
-    border-radius: 40px 40px 0 0;
+    padding-top: 30px;
+    position: relative;
+    bottom: 30px;
+    border-radius: 40px 40px 0px 0px;
+    padding-bottom: 50px;
 }
 
 .bastilleheading {
@@ -28,16 +28,46 @@
     font-weight: bold;
 }
 
-.dishes {
-    background-color: white;
-    width: 95%;
-    height: 50px;
-    margin: 10px;
+.menucards {
+    width: 100%;
     padding: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 20px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
+.entrees {
+    width: 350px;
+    height: 300px;
+    padding: 10px;
+    /*margin: 20px;*/
+    /*background-color: #ccc;*/
+}
+
+.maindish {
+    width: 350px;
+    height: 300px;
+    padding: 10px;
+    /*margin: 70px;*/
+    background-color: #ccc;
+}
+
+.dessert {
+    width: 350px;
+    height: 300px;
+    padding: 10px;
+    /*margin: 70px;*/
+    background-color: #ccc;
+}
+
+.dishes {
+    background-color: white;
+    width: 80%;
+    height: 40px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
 
