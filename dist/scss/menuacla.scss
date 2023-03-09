@@ -33,8 +33,9 @@
     padding: 10px;
     margin: 10px;
     display: flex;
-    justify-content: space-between;
+   /* justify-content: space-between;*/
     align-items: center;
+    gap: 150px;
 }
 
 
@@ -42,7 +43,7 @@
     width: 350px;
     height: 300px;
     padding: 10px;
-    /*margin: 20px;*/
+    margin: 20px;
     /*background-color: #ccc;*/
 }
 
@@ -50,21 +51,21 @@
     width: 350px;
     height: 300px;
     padding: 10px;
-    /*margin: 70px;*/
-    background-color: #ccc;
+    margin: 20px;
+    /*background-color: #ccc;*/
 }
 
 .dessert {
     width: 350px;
     height: 300px;
     padding: 10px;
-    /*margin: 70px;*/
-    background-color: #ccc;
+    margin: 20px;
+    /*background-color: #ccc;*/
 }
 
 .dishes {
     background-color: white;
-    width: 80%;
+    width: 100%;
     height: 40px;
     margin: 10px;
     padding: 10px;

@@ -17,6 +17,10 @@
   font-weight: bold;
 }
 
+.ingredients {
+  font-weight: lighter;
+}
+
 .hiddenbtn {
   opacity: 0;
   /* transition: opacity 0.5s ease-in-out;*/
