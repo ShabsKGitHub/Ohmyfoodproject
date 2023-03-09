@@ -18,7 +18,7 @@
 }
 
 .ingredients {
-  font-weight: lighter;
+  font-weight: lighter; /*this doesn't work*/
 }
 
 .hiddenbtn {
