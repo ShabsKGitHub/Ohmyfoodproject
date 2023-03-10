@@ -18,28 +18,7 @@
 }
 
 .ingredients {
-  font-weight: lighter; /*this doesn't work*/
-}
-
-.hiddenbtn {
-  opacity: 0;
-  /* transition: opacity 0.5s ease-in-out;*/
-  background-color: aquamarine;
-  position: relative;
-  z-index: 1;
-  bottom: 42px;
-  left: 290px;
   border: none;
-  color: white;
-  width: 50px;
-  height: 57px;
-  /*padding: 10px;*/
-  /*margin: 10px;*/
-  display: inline-block;
-  cursor: pointer;
-  border-radius: 10px;
-}
-
-.hiddenbtn:hover {
-  opacity: 1;
+  font-weight: lighter; /*this doesn't work*/
+  background-color: transparent;
 }/*# sourceMappingURL=fonts.css.map */

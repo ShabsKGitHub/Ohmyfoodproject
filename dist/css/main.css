@@ -166,6 +166,27 @@
   gap: 150px;
 }
 
+.dishdescr {
+  display: flex;
+}
+
+.tickbutton {
+  position: absolute;
+  z-index: 0;
+  width: 40%;
+  border: none;
+}
+
+.tickbox {
+  position: absolute;
+  z-index: 1;
+  top: 0px;
+  left: 300px;
+  opacity: 0;
+  transition: opacity 1.5s;
+  background-color: aqua;
+}
+
 .entrees {
   width: 350px;
   height: 300px;
@@ -191,12 +212,26 @@
 }
 
 .dishes {
+  position: relative;
   background-color: white;
   width: 100%;
   height: 40px;
   margin: 10px;
   padding: 10px;
   border-radius: 20px;
+  z-index: 1;
+  transition: width 0.5s, height 0.5s;
+}
+
+.dishes:hover .dishdescr {
+  width: 70%;
+  height: 30px;
+}
+
+.dishes:hover .tickbox {
+  opacity: 1;
+  width: 25%;
+  height: 30px;
 }
 
 .dishdescr {
@@ -219,30 +254,9 @@
 }
 
 .ingredients {
-  font-weight: lighter; /*this doesn't work*/
-}
-
-.hiddenbtn {
-  opacity: 0;
-  /* transition: opacity 0.5s ease-in-out;*/
-  background-color: aquamarine;
-  position: relative;
-  z-index: 1;
-  bottom: 42px;
-  left: 290px;
   border: none;
-  color: white;
-  width: 50px;
-  height: 57px;
-  /*padding: 10px;*/
-  /*margin: 10px;*/
-  display: inline-block;
-  cursor: pointer;
-  border-radius: 10px;
-}
-
-.hiddenbtn:hover {
-  opacity: 1;
+  font-weight: lighter; /*this doesn't work*/
+  background-color: transparent;
 }
 
 body {
