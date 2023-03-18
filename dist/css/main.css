@@ -4,6 +4,17 @@
   align-items: center;
   width: 100%;
 }
+.NavHeader .BackHomepage {
+  position: relative;
+  left: -14%;
+}
+.NavHeader .BackHomepage a {
+  text-decoration-style: none;
+  color: black;
+}
+.NavHeader .BackHomepage i {
+  font-size: 1em;
+}
 .NavHeader .logo {
   width: 40%;
 }
@@ -159,11 +170,11 @@
 }
 
 .menuheading {
-  font-size: 24px;
+  font-size: 2.4em;
   margin: 10px;
   padding: 10px;
-  font-style: italic;
-  font-weight: bold;
+  font-weight: lighter;
+  font-family: "Shrikhand", cursive;
 }
 
 .menucards {
@@ -174,6 +185,7 @@
   /* justify-content: space-between;*/
   align-items: center;
   gap: 150px;
+  flex-wrap: wrap;
 }
 
 .dishdescr {
@@ -273,6 +285,11 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.menuheading {
+  font-family: Shrikhand, sans-serif;
 }
 
 .logo {

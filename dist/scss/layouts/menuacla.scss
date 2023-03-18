@@ -21,11 +21,11 @@
 }
 
 .menuheading {
-    font-size: 24px;
+    font-size: 2.4em;
     margin: 10px;
     padding: 10px;
-    font-style: italic;
-    font-weight: bold;
+    font-weight: lighter;
+    font-family: 'Shrikhand', cursive;
 }
 
 .menucards {
@@ -36,6 +36,7 @@
    /* justify-content: space-between;*/
     align-items: center;
     gap: 150px;
+    flex-wrap:wrap;
 }
 
 .dishdescr {
