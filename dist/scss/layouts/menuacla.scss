@@ -1,12 +1,17 @@
+.NavHeader{
+    background-color: white;
+}
 .menubanner{
     position:absolute;
     width:100%;
+    height:40vh;
+    z-index: -1;
 }
 .menubanner img {    
     width: 100%;
     object-fit: cover;
     object-position: center;
-    height: 250px;
+    height: 100%;
     /*position: relative;
     width: 100%;
     margin: 10%;
