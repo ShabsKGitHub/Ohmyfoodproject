@@ -1,6 +1,16 @@
-.logo img {
-  background-color: white;
-  object-fit: cover;
+.NavHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  height: 100%;
+
+  .logo {
+    width: 40%;
+    img {
+      background-color: white;
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+  }
 }
