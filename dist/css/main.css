@@ -59,8 +59,10 @@
   position: relative;
   z-index: 2;
   left: 70%;
-  width: 45px;
-  border: solid blue;
+  width: 15%;
+  border: solid #99E2D0;
+  background-color: #99E2D0;
+  color: #0d795e;
   padding: 10px;
   margin: 10px;
 }
@@ -73,7 +75,7 @@
 }
 
 .testing1 {
-  width: 30%;
+  width: 50%;
   font-weight: bold;
 }
 
@@ -95,6 +97,7 @@
 }
 
 .heartarea {
+  width: 30%;
   display: flex;
   justify-content: end;
   padding: 10px;
@@ -107,7 +110,7 @@
 
 .fa-heart:hover {
   cursor: pointer;
-  color: green;
+  color: linear-gradient(#350535, #161c63);
   font-weight: 900;
 }
 
@@ -187,9 +190,10 @@
 }
 
 .menuheading {
-  font-size: 2.4em;
+  font-size: 1.5em;
   font-weight: lighter;
   font-family: "Shrikhand", cursive;
+  width: 55%;
 }
 
 .menucards {
@@ -327,6 +331,7 @@ body {
   background-color: #f5f5f5;
   display: flex;
   flex-direction: column;
+  padding: 20px;
   row-gap: 35px;
   align-items: center;
 }
@@ -373,8 +378,8 @@ body {
 }
 
 .instrtext {
-  margin: 5px;
-  padding: 5px;
+  width: 100%;
+  text-align: start;
   font-weight: bold;
 }
 
@@ -385,15 +390,20 @@ body {
   padding: 10px;
   margin: 10px;
   align-items: center;*/
-  display: block;
   display: flex;
+  width: 100%;
   flex-wrap: wrap;
+  align-content: center;
+}
+
+.instrtext, .buttoninstr {
+  padding: 20px;
 }
 
 .buttoninstr {
   display: flex;
-  row-gap: 30px;
-  -moz-column-gap: 30px;
+  width: 100%;
+  /*-moz-column-gap: 30px;*/
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 30px;
@@ -407,11 +417,12 @@ body {
   margin-left: 20px;
   align-items: center;
   justify-content: center;
-  min-width: 30%;
+  min-width: 20%;
   background: rgba(241, 236, 236, 0.867);
   border: none;
   outline: none;
   border-radius: 20px;
+  width: 100%;
   /*box-shadow: 2px 2px 2px 2px;*/
   border: none;
 }
