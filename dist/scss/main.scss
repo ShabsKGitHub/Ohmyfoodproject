@@ -85,7 +85,8 @@ $font-color: rgb(233, 230, 230);
   justify-self: center;
   justify-items: center;
 
-  &:hover {
+  &:hover,
+  &:active {
     box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 10px 0px;
     opacity: 0.8;
 
