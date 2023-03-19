@@ -361,6 +361,10 @@
   background-color: transparent;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   box-sizing: border-box;
   margin: 0;
@@ -368,6 +372,8 @@ body {
   font-family: "Roboto", sans-serif;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
 
 a {
@@ -596,7 +602,7 @@ footer,
     padding: 20px 40px;
   }
   .menubanner {
-    height: 100vh;
+    height: 100%;
   }
   .menubackground {
     margin-top: 15%;
