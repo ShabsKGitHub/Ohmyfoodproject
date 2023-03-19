@@ -145,6 +145,14 @@ align-items: center;*/
   margin-top: 30px;
 }
 
+.ingredients{
+      text-overflow: ellipsis;
+    width: 70%;
+    /* display: flex; */
+    white-space: nowrap;
+    overflow: hidden;
+}
+
 .box1 {
   position: relative;
   display: flex;
