@@ -41,9 +41,9 @@
   width: 95%;
   flex-wrap: wrap;
   /*background-color: bisque;*/
-  padding: 0.4em;
+  padding: 10px;
   justify-content: center;
-  gap: 3em;
+  gap: 40px;
 }
 
 .restcard1 {
@@ -52,7 +52,7 @@
   width: 80%;
   background-color: white;
   background-position: center;
-  border-radius: 0.4em;
+  border-radius: 10px;
 }
 
 .newbox {
@@ -64,6 +64,7 @@
   background-color: #99E2D0;
   color: #0d795e;
   padding: 10px;
+  margin: 10px;
 }
 
 .imagetext {
@@ -375,7 +376,8 @@ body {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none !important;
+  color: white;
 }
 
 .menuheading {
@@ -488,7 +490,7 @@ a {
 
 .ingredients {
   text-overflow: ellipsis;
-  width: 16em;
+  width: 70%;
   /* display: flex; */
   white-space: nowrap;
   overflow: hidden;
