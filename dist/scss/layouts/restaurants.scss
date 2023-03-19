@@ -39,17 +39,20 @@
     position: relative;
     z-index: 2;
     left: 70%;
-    width: 45px;
-    border: solid blue;
+    width: 15%;
+    border: solid #99E2D0;
+    background-color: #99E2D0;
+    color: #0d795e;
     padding: 10px;
     margin: 10px;
+    
    
    
 }
 
 .imagetext {
     display: flex;
-   
+  
     padding: 5px;
     margin: 10px;
     width: 100%;
@@ -80,6 +83,7 @@
 }
 
 .heartarea {
+    width: 50%;
     display: flex;
     justify-content: end;
     padding: 10px;    
@@ -93,7 +97,7 @@
 
 .fa-heart:hover {
     cursor: pointer;
-    color: green;
+    color: linear-gradient(#350535, #161c63);
     font-weight: 900;
 }
 
