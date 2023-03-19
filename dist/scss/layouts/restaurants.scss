@@ -9,9 +9,7 @@
 
 .restcontainer {
     background-color: #F6F6F6;
-    width: 100%;
-    margin: 10px;  
-    padding: 10px;  
+    width: 100%;  
 }
 
 .restgallery {
@@ -31,17 +29,16 @@
 .restcard1 {
     display: flex;  
     flex-direction: column;
-    width: 45%;
+    width: 80%;
     background-color: white;
-    margin: 10px;
     background-position: center; 
     border-radius: 10px;
 }
 
 .newbox {
-    position: absolute;
-    z-index: 1;
-    left: 550px;
+    position: relative;
+    z-index: 2;
+    left: 70%;
     width: 45px;
     border: solid blue;
     padding: 10px;
