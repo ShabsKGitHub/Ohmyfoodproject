@@ -10,15 +10,15 @@ body {
   padding: 0;
   font-family: 'Roboto', sans-serif;
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
 
-.menuheading{
+.menuheading {
   font-family: Shrikhand, sans-serif;
 }
 
@@ -84,11 +84,18 @@ $font-color: rgb(233, 230, 230);
   border: none;
   justify-self: center;
   justify-items: center;
-  &--order{
+
+  &:hover {
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 10px 0px;
+    opacity: 0.8;
+
+  }
+
+  &--order {
     padding: 20px 20%;
     width: fit-content;
   }
- 
+
 }
 
 .expltext {
@@ -98,7 +105,7 @@ $font-color: rgb(233, 230, 230);
 .instrtext {
 
   width: 100%;
- 
+
   text-align: start;
   font-weight: bold;
 }
@@ -110,16 +117,17 @@ flex-direction: column;
 padding: 10px;
 margin: 10px;
 align-items: center;*/
-  display:flex;
+  display: flex;
   width: 100%;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   align-content: center;
-  
+
 }
 
- .instrtext, .buttoninstr{
+.instrtext,
+.buttoninstr {
   padding: 20px;
- }
+}
 
 .buttoninstr {
   display: flex;
@@ -143,7 +151,7 @@ align-items: center;*/
   border: none;
   outline: none;
   border-radius: 20px;
-  width:100%;
+  width: 100%;
   /*box-shadow: 2px 2px 2px 2px;*/
   border: none;
 }
@@ -172,16 +180,18 @@ align-items: center;*/
 
 footer {
   background-color: darkgrey;
-  display:flex;
+  display: flex;
   flex-direction: column;
-  h4{
-    color:white;
+
+  h4 {
+    color: white;
     font-family: 'Shrikhand';
-    margin:0px;
+    margin: 0px;
     text-align: start;
-    font-weight:300;
+    font-weight: 300;
     margin-bottom: 0.4em;
   }
+
   padding: 2em 1em;
   gap: 0.4em;
 }
@@ -193,28 +203,34 @@ footer {
 
 /*Bastille page*/
 
-.restcontainer, header, footer, .instructions, .restaurantdescr, .Location{
-   opacity:0;
-   animation: fadeIn 4s 1 forwards ease-out;
+.restcontainer,
+header,
+footer,
+.instructions,
+.restaurantdescr,
+.Location {
+  opacity: 0;
+  animation: fadeIn 3.5s 1 forwards ease-out;
 }
-.loader{
+
+.loader {
   font-size: 10em;
-  position:fixed;
+  position: fixed;
   top: 30%;
   left: 30%;
   animation: spin 0.5s infinite, fadeIn 1s 1 forwards reverse, removeBlock 3s 1 forwards;
 
 }
 
-@keyframes removeBlock{
-  0%{
+@keyframes removeBlock {
+  0% {
     opacity: 1;
   }
-  100%{
+
+  100% {
     scale: 0;
     visibility: hidden;
     display: none;
     z-index: -1;
   }
 }
-
