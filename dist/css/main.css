@@ -587,9 +587,19 @@ footer,
   .menucards {
     gap: 0px;
     height: 100%;
+    justify-content: center;
+  }
+  .NavHeader .logo {
+    width: 10%;
   }
   .explorerbtn {
     padding: 20px 40px;
+  }
+  .menubanner {
+    height: 100vh;
+  }
+  .menubackground {
+    margin-top: 15%;
   }
 }
 /* Medium devices (landscape tablets, 768px and up) */
