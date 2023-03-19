@@ -244,24 +244,8 @@
   background-color: aqua;
 }
 
-.entrees {
-  width: 350px;
-  height: 300px;
-  padding: 0.8em;
-  margin: 1.6em;
-  /*background-color: #ccc;*/
-}
-
-.maindish {
-  width: 350px;
-  height: 300px;
-  padding: 0.8em;
-  margin: 1.6em;
-  /*background-color: #ccc;*/
-}
-
-.dessert {
-  width: 350px;
+.menus {
+  width: 100%;
   height: 300px;
   padding: 0.8em;
   margin: 1.6em;
@@ -272,7 +256,7 @@
   position: relative;
   background-color: white;
   height: 5em;
-  margin: 0.8em;
+  margin-bottom:0.8em;
   border-radius: 0.8em;
   z-index: 1;
   transition: width 0.5s, height 0.5s;
@@ -365,8 +349,7 @@
 }
 
 .menutitles {
-  margin: 10px;
-  padding: 10px;
+  margin-bottom: 10px;
 }
 
 .dishname {
@@ -595,6 +578,9 @@ footer,
 @media only screen and (min-width: 600px) {
   .restcard1 {
     width: 35%;
+  }
+  .box1 {
+    width: 20%;
   }
 }
 /* Medium devices (landscape tablets, 768px and up) */
