@@ -58,7 +58,8 @@
 .newbox {
   position: relative;
   z-index: 2;
-  left: 70%;
+  left: 74%;
+  top: -100%;
   width: 15%;
   border: solid #99E2D0;
   background-color: #99E2D0;
@@ -103,7 +104,8 @@
   padding: 10px;
 }
 
-.heartarea:active, .heartarea:hover .fa-heart {
+.heartarea:active,
+.heartarea:hover .fa-heart {
   background: -moz-linear-gradient(top, #e72c83 0%, #a742c6 100%);
   background: -webkit-linear-gradient(top, #e72c83 0%, #a742c6 100%);
   background: linear-gradient(to bottom, #e72c83 0%, #a742c6 100%);
@@ -133,7 +135,6 @@
 }
 
 .restimage1 {
-  background-image: url(images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
   width: 100%;
   background-size: cover;
   height: 200px;
@@ -143,7 +144,6 @@
 }
 
 .restimage2 {
-  background-image: url(images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg);
   width: 100%;
   background-size: cover;
   height: 200px;
@@ -378,6 +378,15 @@ body {
 a {
   text-decoration: none !important;
   color: white;
+}
+
+.restcard1 {
+  overflow: hidden;
+}
+.restcard1 img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 
 .menuheading {

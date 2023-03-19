@@ -9,7 +9,7 @@
 
 .restcontainer {
     background-color: #F6F6F6;
-    width: 100%;  
+    width: 100%;
 }
 
 .restgallery {
@@ -27,49 +27,51 @@
 
 
 .restcard1 {
-    display: flex;  
+    display: flex;
     flex-direction: column;
     width: 80%;
     background-color: white;
-    background-position: center; 
+    background-position: center;
     border-radius: 10px;
 }
 
 .newbox {
     position: relative;
     z-index: 2;
-    left: 70%;
+
+    left: 74%;
+    top: -100%;
     width: 15%;
     border: solid #99E2D0;
     background-color: #99E2D0;
     color: #0d795e;
     padding: 10px;
     margin: 10px;
-    
-   
-   
+
+
+
 }
 
 .imagetext {
     display: flex;
-  
+
     padding: 5px;
     margin: 10px;
     width: 100%;
-    
+
 }
 
 .testing1 {
     width: 50%;
-    font-weight: bold;  
-    
+    font-weight: bold;
+
 }
 
 .testing2 {
     font-weight: lighter;
 }
 
-.underline{
+.underline {
     width: 15%;
     display: block;
     margin-top: 0.4em;
@@ -86,59 +88,59 @@
     width: 30%;
     display: flex;
     justify-content: end;
-    padding: 10px;    
+    padding: 10px;
 }
 
-.heartarea:active,.heartarea:hover .fa-heart{
-    background:-moz-linear-gradient(top, #e72c83 0%, #a742c6 100%); 
-    background: -webkit-linear-gradient(top, #e72c83 0%,#a742c6 100%); 
-    background: linear-gradient(to bottom, #e72c83 0%,#a742c6 100%);
+.heartarea:active,
+.heartarea:hover .fa-heart {
+    background: -moz-linear-gradient(top, #e72c83 0%, #a742c6 100%);
+    background: -webkit-linear-gradient(top, #e72c83 0%, #a742c6 100%);
+    background: linear-gradient(to bottom, #e72c83 0%, #a742c6 100%);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
-   -webkit-text-fill-color:transparent;
+    -webkit-text-fill-color: transparent;
     font-weight: 900;
     animation: fillUp 1s 1;
 
 }
 
-@keyframes fillUp{
-    0%{
-        opacity:0;
+@keyframes fillUp {
+    0% {
+        opacity: 0;
     }
-    100%{
-        opacity:1;
-      
+
+    100% {
+        opacity: 1;
+
     }
 }
 
-.fa-heart  {
+.fa-heart {
     font-size: 2em;
-   /* font-weight: 400;*/
+    /* font-weight: 400;*/
 }
 
 
 .fa-heart:hover {
     cursor: pointer;
-    
+
 }
 
 
 
 
 .restimage1 {
-   background-image: url(images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
-   width: 100%;
-   background-size: cover; 
-   height: 200px;
-   background-position: center;
-   border-radius: 10px;  
-   justify-content: center;
+    width: 100%;
+    background-size: cover;
+    height: 200px;
+    background-position: center;
+    border-radius: 10px;
+    justify-content: center;
 }
 
 
 .restimage2 {
-    background-image: url(images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg);
     width: 100%;
     background-size: cover;
     height: 200px;
@@ -166,21 +168,3 @@
     border-radius: 10px;
     justify-content: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
