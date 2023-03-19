@@ -495,7 +495,9 @@ a {
   margin: 5px;
   margin-left: 20px;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  gap: 1.6em;
+  font-weight: 300;
   min-width: 20%;
   background: rgba(241, 236, 236, 0.867);
   border: none;
@@ -504,6 +506,13 @@ a {
   width: 100%;
   /*box-shadow: 2px 2px 2px 2px;*/
   border: none;
+}
+
+.boxnr {
+  font-size: 1.1em;
+  color: white;
+  font-weight: 500;
+  padding: 0.2em;
 }
 
 .box1:hover {
