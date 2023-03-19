@@ -354,17 +354,6 @@
     transform: translateX(0);
   }
 }
-.dishes:hover .dishdescr {
-  width: 70%;
-  height: 30px;
-}
-
-.dishes:hover .tickbox {
-  opacity: 1;
-  width: 25%;
-  height: 30px;
-}
-
 .dishdescr {
   display: flex;
   width: 100%;
