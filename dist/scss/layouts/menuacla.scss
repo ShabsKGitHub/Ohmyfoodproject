@@ -81,10 +81,9 @@
 }
 
 .menus {
-    width: 350px;
+    width: 100%;
     height: 300px;
     padding: 0.8em;
-    margin: 1.6em;
     /*background-color: #ccc;*/
 }
 
@@ -93,7 +92,7 @@
     position: relative;
     background-color: white;
     height: 5em;
-    margin: 0.8em;
+    margin-bottom: 0.8em;
     border-radius: 0.8em;
     z-index: 1;
     transition: width 0.5s, height 0.5s;
