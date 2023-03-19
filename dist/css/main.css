@@ -584,6 +584,13 @@ footer,
   .menus {
     width: 30%;
   }
+  .menucards {
+    gap: 0px;
+    height: 100%;
+  }
+  .explorerbtn {
+    padding: 20px 40px;
+  }
 }
 /* Medium devices (landscape tablets, 768px and up) */
 /* Large devices (laptops/desktops, 992px and up) */
