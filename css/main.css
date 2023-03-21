@@ -310,6 +310,12 @@
   animation-fill-mode: forwards;
 }
 
+.dishes:nth-child(5) {
+  animation: fadeIn 1.5s 1;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
