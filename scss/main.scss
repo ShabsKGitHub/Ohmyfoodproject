@@ -284,12 +284,19 @@ footer,
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {}
+@media only screen and (max-width: 600px) {
+  .dishname{
+    width: 100% !important;
+  }
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   .restcard1 {
     width: 35%;
+  }
+  .dishname{
+    width: 80% !important;
   }
 
   .box1 {
