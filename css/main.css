@@ -365,6 +365,11 @@
   background-color: transparent;
 }
 
+.restheading {
+  width: 100%;
+  padding: 0.5em;
+}
+
 html {
   height: 100%;
 }
