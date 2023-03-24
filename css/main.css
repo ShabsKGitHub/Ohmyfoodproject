@@ -615,7 +615,7 @@ footer,
     opacity: 1;
   }
   100% {
-    scale: 1;
+    /*scale:calc(1);*/
     visibility: hidden;
     display: none;
     z-index: -1;
