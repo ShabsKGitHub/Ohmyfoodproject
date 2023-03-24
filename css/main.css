@@ -8,7 +8,7 @@
   position: relative;
   left: -14%;
 }
-.NavHeader .BackHomepage {
+.NavHeader .BackHomepage a {
   text-decoration-style: none;
   color: black;
 }
@@ -406,7 +406,7 @@ a {
 .logo {
   margin: 5px;
   padding: 10px;
-  box-shadow: 1px;
+  /*box-shadow: 1px;*/
   /*  width: 25%;*/
   text-align: center;
 }
@@ -615,7 +615,7 @@ footer,
     opacity: 1;
   }
   100% {
-    scale: 0;
+    scale: 1;
     visibility: hidden;
     display: none;
     z-index: -1;
