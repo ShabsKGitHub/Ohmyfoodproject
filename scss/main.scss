@@ -46,7 +46,7 @@ $font-color: rgb(233, 230, 230);
 .logo {
   margin: 5px;
   padding: 10px;
-  box-shadow: 1px;
+  /*box-shadow: 1px;*/
   /*  width: 25%;*/
   text-align: center;
 }
@@ -271,7 +271,7 @@ footer,
   }
 
   100% {
-    scale: 0;
+    scale: 1;
     visibility: hidden;
     display: none;
     z-index: -1;
