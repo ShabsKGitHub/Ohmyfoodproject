@@ -268,7 +268,7 @@
   display: flex;
   color: aliceblue;
   height: 100%;
-  background-color: aquamarine;
+  background-color: #99E2D0;
   align-items: center;
   justify-content: center;
   width: 20%;
@@ -279,12 +279,12 @@
 .dishes .ticbox i {
   transform: rotate(-180deg);
 }
-.dishes:active .ticbox {
+.dishes:hover .ticbox {
   transform: translateX(0);
   animation: slideLeft 2s;
   display: flex;
 }
-.dishes:active .ticbox i {
+.dishes:hover .ticbox i {
   transform: rotate(0);
   animation: spin 2.3s;
 }

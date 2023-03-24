@@ -109,7 +109,7 @@
         display: flex;
         color: aliceblue;
         height: 100%;
-        background-color: aquamarine;
+        background-color: #99E2D0;
         align-items: center;
         justify-content: center;
         width: 20%;
@@ -122,7 +122,7 @@
         }
     }
 
-    &:active .ticbox {
+    &:hover .ticbox {
         transform: translateX(0);
         animation: slideLeft 2s;
         display: flex;
